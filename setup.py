@@ -21,7 +21,7 @@ setuptools.setup(
 		'tensorflow>=2.3.1',
 		'silence_tensorflow>=1.1.1',
 		'click>=7.1.2',
-		'ddgun==0.0.1',
+		'ddgun>=0.0.1',
 	],
 	package_data={
 		'acdc_nn': ['weights/*']

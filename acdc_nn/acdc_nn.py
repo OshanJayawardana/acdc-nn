@@ -109,7 +109,7 @@ class ACDC3D:
 
 	def load_weights(self, path=None):
 		if path is None:
-			path = resource_filename('acdc_nn', 'weights/full_dataset_TL')
+			path = resource_filename('acdc_nn', 'weights/acdc_nn_3d.h5')
 		self.nn.load_weights(path)
 
 	def predict(self, wt_mut, wt_prof, wt_struct, mt_mut=None, mt_prof=None, mt_struct=None):
